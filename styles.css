@@ -138,7 +138,7 @@ nav a.active{
 }
 
 .lista-habilidades{
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 0;
@@ -146,8 +146,10 @@ nav a.active{
 }
 
 .lista-habilidades li{
-    padding: 10px;
+    padding: 0 15px 0 15px;
     text-align: center;
+    list-style-type: none;
+    line-height: 30px;
 }
 
 .container-4 p{
